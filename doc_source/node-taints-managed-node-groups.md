@@ -18,7 +18,7 @@ aws eks create-nodegroup \
      {
          "key": "dedicated",
          "value": "gpuGroup",
-         "effect": "NO_SCHEDULE"
+         "effect": "NoSchedule"
      }
    ],
 }'
